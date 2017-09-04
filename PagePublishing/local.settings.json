@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=<name>;AccountKey=<key>;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=<name>;AccountKey=<key>;EndpointSuffix=core.windows.net"
+  },
+  "Host": {
+    "LocalHttpPort": 7072
+  },
+  "queues": {
+    "maxPollingInterval": 500,
+    "visibilityTimeout": "00:00:05"
+  }
+}
